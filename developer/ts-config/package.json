@@ -1,0 +1,11 @@
+{
+    "name": "@monorepo/typescript",
+    "private": true,
+    "exports": {
+        "./base": "./src/base.config.json",
+        "./react": "./src/react-library.config.json"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

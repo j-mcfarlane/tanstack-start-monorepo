@@ -1,0 +1,16 @@
+{
+    "name": "@monorepo/styling",
+    "exports": {
+        "./reset": "./src/reset.css"
+    },
+    "scripts": {
+        "lint": "eslint src/"
+    },
+    "peerDependencies": {
+        "@monorepo/lint": "workspace:*",
+        "@monorepo/typescript": "workspace:*",
+                "@pigment-css/react": "^0.0.28",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0"
+    }
+}

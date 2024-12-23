@@ -1,0 +1,17 @@
+{
+    "name": "@monorepo/ui",
+    "exports": {
+        "./button": "./src/Button/Button.tsx"
+    },
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint src/"
+    },
+    "peerDependencies": {
+        "@monorepo/lint": "workspace:*",
+        "@monorepo/typescript": "workspace:*",
+        "@pigment-css/react": "^0.0.28",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0"
+    }
+}
